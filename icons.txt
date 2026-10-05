@@ -1,0 +1,6 @@
+https://boxicons.com
+ 1. usage:
+   1.1. Add in the head 
+  	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+   1.2. Add our icon
+  	<i class='bx bxl-facebook-square'></i> 
