@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="../static/css/style.css"> -->
+    <link rel="stylesheet" href="{{url_for('static', path = 'css/style.css')}}">
+    
+    <title>Animated Background</title>
+</head>
+<body>
+    <main id="main">
+        <div class="container">
+            <div class="container-content" id = "cards-main">
+                <div class="card" id = "card-1">
+                    <div class="card-content" data-id = 'ee31c57a619041a19bb7aeb500472b50_9366'>
+                        <!-- <h1>Card 1</h1> -->
+                        <img class="img-1 src" src="{{url_for('static', path = 'img/ee31c57a619041a19bb7aeb500472b50_9366.png')}}" alt="">
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                    </div>
+                </div>
+                <div class="card" id = "card-2">
+                    <div class="card-content" data-id="86df82ab5c8649d0b4b1aec500d2051a_9366">
+                        <!-- <h1>Card 2</h1> -->
+                        <img class="img-2 src" src="{{url_for('static', path = 'img/86df82ab5c8649d0b4b1aec500d2051a_9366.png')}}" alt="" srcset="">
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                    </div>
+                </div>
+                <div class="card" id = "card-3">
+                    <div class="card-content" data-id="5143393548834f6687f9ae7b012a569d_9366">
+                        <!-- <h1>Card 3</h1> -->
+                        <img class="img-3 src" src="{{url_for('static', path = 'img/5143393548834f6687f9ae7b012a569d_9366.png')}}" alt="" srcset="">
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p> -->
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+        <div class="container-1"></div>
+        
+        
+        <script src="{{url_for('static', path = 'script/script.js')}}"></script>
+    </main>
+</body>
+</html>
